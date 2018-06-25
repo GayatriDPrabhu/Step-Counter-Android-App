@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Preference created to store the step record of the day-->
+    <Preference
+        android:key="goal"
+        android:title="@string/goal"/>
+    <!-- Preference created to store the step size and unit of measurement-->
+    <Preference
+        android:key="stepsize"
+        android:title="@string/step_size"/>
+
+</PreferenceScreen>
